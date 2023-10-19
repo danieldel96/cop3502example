@@ -21,3 +21,9 @@ try:
         raise ValueError("mandarin")
 except ValueError as error:
     print("Array needs to contain word: ",str(error))
+
+
+def func(a,b):
+    print(a,b)
+
+func(1,2)
